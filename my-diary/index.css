@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: #eeeeee;
+}
+
+.wrapper__head__title {
+    background-color: orange;
+    text-align: center;
+    color: white;
+}
+
+.wrapper__head__sub-title{
+    font-weight: 700;
+}
+
+.point{
+    color: orange;
+    text-decoration: underline;
+}
