@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.container{
+.container {
     background: #eeeeee;
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@
     padding: 50px 0;
 }
 
-.wrapper{
+.wrapper {
     width: 620px;
     background-color: white;
     border: 1px solid gray;
@@ -21,13 +21,13 @@
     border-radius: 10px;
 }
 
-.wrapper__head{
+.wrapper__head {
     border-bottom: 1px dashed gray; 
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
-.wrapper__head__title{
+.wrapper__head__title {
     font-size: 32px;
     background-color: orange;
     color: white;
@@ -36,7 +36,7 @@
     margin-bottom: 10px;
 }
 
-.wrapper__head__sub-title{
+.wrapper__head__sub-title {
     font-size: 18px;
     padding: 10px 0;
 }
@@ -49,37 +49,97 @@
     margin-top: 15px;
 }
 
-.wrapper__body{
+.wrapper__body {
     border: 1px solid #dddddd;
     padding: 20px 30px;
 }
 
-.diary-title{
+.diary-title {
     font-size: 18px;
     background-color: #f4f4f4;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.kimchi{
+.kimchi {
     color: red;
     font-weight: 600;
 }
 
-.egg{
+.egg {
     color: orange;
     font-weight: 600;
 }
 
-.highlight{
+.highlight {
     color: blue;
     font-weight: 700;
     font-size: 22px;
     font-style: italic;
 }
 
-.diary-date{
+.diary-date {
     color: #919191;
     font-size: 14px;
     text-align: right;
+}
+
+.header {
+    border-bottom: 1px solid gray;
+}
+
+.header-inner {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 80px;
+    padding-top: 17px;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: orange;
+}
+
+.menu {
+    float: left;
+    width: calc(100% - 200px);
+    height: 80px;
+    text-align: center;
+}
+
+.menu__ul {
+    display: inline-block;
+}
+
+.menu__ul li {
+    float: left;
+    list-style: none;
+}
+
+.menu__ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 29px 20px;
+}
+
+.menu__ul li a:hover {
+    color: orange;
+}
+
+.user {
+    float: left;
+    width: 100px;
+    height: 80px;
+    padding-top: 23px;
+}
+
+.clearfix {
+    clear: both;
 }
