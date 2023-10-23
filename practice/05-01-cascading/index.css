@@ -1,0 +1,15 @@
+* {
+    background: aqua;
+}
+
+div {
+    background: brown;
+}
+
+.text-clas {
+    background: chocolate;
+}
+
+#text-id {
+    background: salmon;
+}
