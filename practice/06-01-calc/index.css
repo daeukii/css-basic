@@ -24,3 +24,15 @@
     width: calc(100% - 70px);
     height: 50px;
 }
+
+.item3 {
+    background: blue;
+    width: calc(3*20px);
+    height: 50px;
+}
+
+.item4 {
+    background: yellow;
+    width: calc(100%/4);
+    height: 50px;
+}
